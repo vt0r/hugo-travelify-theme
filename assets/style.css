@@ -107,7 +107,7 @@ hr {
     font-family: 'Genericons';
     src: url('library/font/Genericons.woff'),
          url('library/font/Genericons.ttf') format('truetype'),
-         url('library/font/Genericons.svg#Genericonsregular') format('svg');
+         url('library/font/Genericons.svg#genericonsregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
