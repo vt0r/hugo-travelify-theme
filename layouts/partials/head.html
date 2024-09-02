@@ -30,7 +30,9 @@
     {{ end }}
     {{ if .Site.Social.email }}
     <li class="email">
-        <a href="mailto:{{ .Site.Social.email }}" title="{{ .Site.Data.l10n.social.email }}" target="_blank"></a>
+        <a href="mailto:{{ .Site.Social.email }}" title="{{ .Site.Data.l10n.social.email }}" target="_blank">
+			<i class="fa-solid fa-envelope"></i>
+		</a>
     </li>
     {{ end }}
     {{ if .Site.Social.rss }}
@@ -76,6 +78,13 @@
     {{ if .Site.Social.youtube }}
     <li class="youtube">
       <a href="https://www.youtube.com/{{ .Site.Social.youtube }}" title="{{ .Site.Data.l10n.social.youtube }}" target="_blank"></a>
+    </li>
+    {{ end }}
+    {{ if .Site.Social.keyoxide }}
+    <li class="keyoxide">
+		<a href="https://keyoxide.org/{{ .Site.Social.keyoxide }}" title="{{ .Site.Data.l10n.social.keyoxide }}" target="_blank">
+            <i class="fa-solid fa-key"></i>
+        </a>
     </li>
     {{ end }}
     {{ if .Site.Social.github }}
