@@ -16,7 +16,7 @@
     {{ end }}
     {{ if .Site.Social.mastodon_user }}
     <li class="mastodon">
-		<a href="https://{{ .Site.Social.mastodon_server }}/{{ .Site.Social.mastodon_user }}" title="{{ .Site.Data.l10n.social.mastodon }}" target="_blank">
+		<a href="https://{{ .Site.Social.mastodon_server }}/@{{ .Site.Social.mastodon_user }}" title="{{ .Site.Data.l10n.social.mastodon }}" target="_blank">
             <i class="fa-brands fa-mastodon"></i>
         </a>
     </li>
