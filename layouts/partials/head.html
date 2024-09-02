@@ -16,16 +16,16 @@
     {{ end }}
     {{ if .Site.Social.mastodon_user }}
     <li class="mastodon">
-        <i class="fa-brands fa-mastodon">
-            <a href="https://{{ .Site.Social.mastodon_server }}/{{ .Site.Social.mastodon_user }}" title="{{ .Site.Data.l10n.social.mastodon }}" target="_blank"></a>
-        </i>
+		<a href="https://{{ .Site.Social.mastodon_server }}/{{ .Site.Social.mastodon_user }}" title="{{ .Site.Data.l10n.social.mastodon }}" target="_blank">
+            <i class="fa-brands fa-mastodon"></i>
+        </a>
     </li>
     {{ end }}
     {{ if .Site.Social.bluesky }}
     <li class="bluesky">
-        <i class="fa-brands fa-bluesky">
-            <a href="https://bsky.app/profile/{{ .Site.Social.bluesky }}" title="{{ .Site.Data.l10n.social.bluesky }}" target="_blank"></a>
-        </i>
+		<a href="https://bsky.app/profile/{{ .Site.Social.bluesky }}" title="{{ .Site.Data.l10n.social.bluesky }}" target="_blank">
+            <i class="fa-brands fa-bluesky"></i>
+        </a>
     </li>
     {{ end }}
     {{ if .Site.Social.email }}
