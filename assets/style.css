@@ -676,20 +676,6 @@ a.more-link:focus {
 .social-icons ul li.youtube a:focus {
 	background: #cd4132;
 }
-.social-icons ul li.rss a:before {
-	content: '\f413';
-}
-.social-icons ul li.rss a:hover,
-.social-icons ul li.rss a:focus {
-	background: #fc7216;
-}
-.social-icons ul li.github a:before {
-	content: '\f200';
-}
-.social-icons ul li.github a:hover,
-.social-icons ul li.github a:focus {
-	background: #151013;
-}
 
 /* Header Image */
 .header-image {

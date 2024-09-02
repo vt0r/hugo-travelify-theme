@@ -37,7 +37,9 @@
     {{ end }}
     {{ if .Site.Social.rss }}
     <li class="rss">
-      <a href="{{ .Site.Social.feed }}" title="{{ .Site.Data.l10n.social.RSS }}" target="_blank"></a>
+      <a href="{{ .Site.Social.feed }}" title="{{ .Site.Data.l10n.social.RSS }}" target="_blank">
+		<i class="fa-solid fa-rss"></i>
+	  </a>
     </li>
     {{ end }}
     {{ if .Site.Social.googleplus }}
@@ -89,7 +91,9 @@
     {{ end }}
     {{ if .Site.Social.github }}
     <li class="github">
-      <a href="https://www.github.com/{{ .Site.Social.github }}" title="{{ .Site.Data.l10n.social.github }}" target="_blank"></a>
+      <a href="https://www.github.com/{{ .Site.Social.github }}" title="{{ .Site.Data.l10n.social.github }}" target="_blank">
+		<i class="fa-brands fa-github"></i>
+	  </a>
     </li>
     {{ end }}
   </ul>
