@@ -621,7 +621,7 @@ a.more-link:focus {
 	background: #00aced;
 }
 .social-icons ul li.bluesky a:before {
-    font-family: 'Font Awesome';
+    font-family: 'Font Awesome\ 6 Free';
 	content: '\f061';
 	font-weight: 900;
 }
