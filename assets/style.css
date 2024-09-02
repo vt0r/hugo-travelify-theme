@@ -620,15 +620,6 @@ a.more-link:focus {
 .social-icons ul li.twitter a:focus {
 	background: #00aced;
 }
-.social-icons ul li.bluesky a:before {
-    font-family: 'Font Awesome\ 6 Free';
-	content: '\f061';
-	font-weight: 900;
-}
-.social-icons ul li.bluesky a:hover,
-.social-icons ul li.bluesky a:focus {
-	background: #00aced;
-}
 .social-icons ul li.google-plus a:before {
 	content: '\f218';
 }
