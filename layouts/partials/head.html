@@ -54,7 +54,9 @@
     {{ end }}
     {{ if .Site.Social.linkedin }}
     <li class="linkedin">
-      <a href="https://www.linkedin.com/in/{{ .Site.Social.linkedin }}" title="{{ .Site.Data.l10n.social.linkedin }}" target="_blank"></a>
+      <a href="https://www.linkedin.com/in/{{ .Site.Social.linkedin }}" title="{{ .Site.Data.l10n.social.linkedin }}" target="_blank">
+		<i class="fa-brands fa-linkedin"></i>
+	  </a>
     </li>
     {{ end }}
     {{ if .Site.Social.tumblr }}

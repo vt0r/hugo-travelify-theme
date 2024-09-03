@@ -634,13 +634,6 @@ a.more-link:focus {
 .social-icons ul li.pinterest a:focus {
 	background: #cb2027;
 }
-.social-icons ul li.linkedin a:before {
-	content: '\f207';
-}
-.social-icons ul li.linkedin a:hover,
-.social-icons ul li.linkedin a:focus {
-	background: #005a87;
-}
 .social-icons ul li.tumblr a:before {
 	content: '\f214';
 }
