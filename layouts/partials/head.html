@@ -107,7 +107,7 @@
       <h1 id="site-title">
   <a href="/" rel="home">
     {{ if .Site.Params.logo }}
-          <img src="{{ .Site.Params.logo | absURL }}"></img>
+          <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Params.logo_alt_txt }}"></img>
     {{ end }}
     {{ if .Site.Params.title_in_logo }}
     <span class="site-title">{{ .Site.Title }}</span>
