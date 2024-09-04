@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.site_description }}{{ else }}{{ .Description }}{{ end }}">
     <link rel='stylesheet' id='travelify_style-css'  href="{{ $style.Permalink }}" type='text/css' media='all' />
-    <link rel='stylesheet' id='embed_style-css'  href="{{ $embed_style.Permalink }}" type='text/css' media='all' />
-    <link rel='stylesheet' id='google_font_ubuntu-css'  href="{{ $style.Permalink }}" type='text/css' media='all' />
+    <!-- <link rel='stylesheet' id='embed_style-css'  href="{{ $embed_style.Permalink }}" type='text/css' media='all' /> -->
+    <!-- <link rel='stylesheet' id='google_font_ubuntu-css'  href="{{ $style.Permalink }}" type='text/css' media='all' /> -->
     <link rel='stylesheet' id='syntax_highlighting-css' href="{{ .Site.BaseURL }}css/syntax.css" type='text/css' media='all' />
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}apple-touch-icon.png">
@@ -22,6 +22,23 @@
     <link rel="mask-icon" href="{{ .Site.BaseURL }}safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <!-- Inline style sheets for embed, etc -->
+    <style type="text/css">
+        .wrap-element {
+            position: relative;
+            overflow: hidden;
+            padding-top: 45%;
+        }
+
+        .wrapped-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
     {{ if and (and (not (eq .Site.Config.Services.Disqus.Shortname "")) (not .Params.disable_comments)) }}
     <script id="dsq-count-scr" src="https://{{ .Site.Params.privacy.DisqusShortname }}.disqus.com/count.js" async></script>
     {{ end }}
