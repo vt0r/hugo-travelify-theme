@@ -14,6 +14,13 @@
     <link rel='stylesheet' id='embed_style-css'  href="{{ $embed_style.Permalink }}" type='text/css' media='all' />
     <link rel='stylesheet' id='google_font_ubuntu-css'  href="{{ $style.Permalink }}" type='text/css' media='all' />
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}favicon-16x16.png">
+    <link rel="manifest" href="{{ .Site.BaseURL }}site.webmanifest">
+    <link rel="mask-icon" href="{{ .Site.BaseURL }}safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     {{ if and (and (not (eq .Site.Config.Services.Disqus.Shortname "")) (not .Params.disable_comments)) }}
     <script id="dsq-count-scr" src="https://{{ .Site.Params.privacy.DisqusShortname }}.disqus.com/count.js" async></script>
     {{ end }}
