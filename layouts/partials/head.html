@@ -37,7 +37,7 @@
     {{ end }}
     {{ if .Site.Params.social.rss }}
     <li class="rss">
-      <a href="{{ .Site.Params.social.feed }}" title="{{ .Site.Data.l10n.social.RSS }}" target="_blank">
+      <a href="{{ .Site.Params.social.feed | absURL }}" title="{{ .Site.Data.l10n.social.RSS }}" target="_blank">
 		<i class="fa-solid fa-rss"></i>
 	  </a>
     </li>
