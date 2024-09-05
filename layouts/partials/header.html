@@ -10,7 +10,7 @@
     <meta name="referrer" content="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.site_description }}{{ else }}{{ .Description }}{{ end }}">
-    <link rel='stylesheet' id='travelify_style-css'  href="{{ $style.Permalink }}" type='text/css' media='all' />
+    <link rel='stylesheet' id='travelify_style-css'  href="{{ $style.Permalink }}" type='text/css' media="print" onload="this.media='all'; this.onload=null;" />
     <!-- <link rel='stylesheet' id='embed_style-css'  href="{{ $embed_style.Permalink }}" type='text/css' media='all' /> -->
     <!-- <link rel='stylesheet' id='google_font_ubuntu-css'  href="{{ $style.Permalink }}" type='text/css' media='all' /> -->
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
