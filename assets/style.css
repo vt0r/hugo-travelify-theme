@@ -65,7 +65,7 @@ embed,iframe,object {
 /* =Global
 -----------------------------------------------*/
 body,input,textarea,article {
-	color: #1d1d1d;
+	color: rgb(214, 210, 205);
 	font: 14px Helvetica, sans-serif;
 	font-weight: 400;
 	line-height: 24px;
@@ -85,7 +85,7 @@ hr {
 .wrapper {
 	max-width: 1018px;
 	margin: 0 auto;
-	background-color: #f8f8f8;
+	background-color: rgb(28, 30, 31);
 	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
@@ -1604,7 +1604,7 @@ ul.default-wp-page li a:active {
 /* =Widgets
 -----------------------------------------------*/
 .widget {
-	background: #fff;
+	background: rgb(24, 26, 27);
 	padding: 15px;
 	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -1816,7 +1816,7 @@ ul.default-wp-page li a:active {
 }
 
 article {
-	background: #fff;
+	background: rgb(24, 26, 27);
 	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
