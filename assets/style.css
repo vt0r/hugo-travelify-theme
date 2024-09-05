@@ -1030,13 +1030,13 @@ a.more-link:focus {
 	color: #439f55;
 }
 .entry-meta-bar {
-	border-top: 1px solid #eaeaea;
+	border-top: 1px solid rgba(140, 130, 115, 0.04);
 	border-top: rgba(0,0,0,.035) 1px solid;
-	border-bottom: 1px solid #eaeaea;
+	border-bottom: 1px solid rgba(140, 130, 115, 0.04);
 	border-bottom: rgba(0,0,0,.035) 1px solid;
 	padding: 7px 5px;
 	clear: both;
-	background: #f9f9f9;
+	background: rgb(27, 30, 31);
 }
 .entry-meta {
 	float: left;
