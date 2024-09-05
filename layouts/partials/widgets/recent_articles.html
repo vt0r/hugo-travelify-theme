@@ -7,7 +7,7 @@
         <ul class=" rpwe-ul">
             {{ range first 5 (where .Site.RegularPages "Type" "post") }}
             <li class="rpwe-il rpwe-classfix">
-                <a class="rpwe-img" href="{{ .Permalink }}" class="thumbnail">
+                <a class="rpwe-img" href="{{ .Permalink }}" class="thumbnail" title="Permalink to {{ .Title }}">
 		    {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
                     <img class="rpwe-alignleft rpwe-thumb" src="{{ .Params.banner | absURL }}" alt="{{ $.Title }}">
 		    {{else}}
