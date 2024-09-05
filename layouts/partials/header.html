@@ -107,6 +107,6 @@
     </script>
     {{ end }}
     {{ range $i, $src := .Site.Params.custom_css }}
-    <link rel='stylesheet' id='custom_css_{{ $i }}'  href="{{ $src | absURL }}" type='text/css' media='all' />
+    <link rel='stylesheet' id='custom_css_{{ $i }}'  href="{{ $src | absURL }}" type='text/css' media="print" onload="this.media='all'; this.onload=null;" />
     {{ end }}
 </head>

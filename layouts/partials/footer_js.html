@@ -9,20 +9,20 @@
 	 inlineMath: [['$','$'], ['\\(','\\)']]}
  });
 </script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 {{ end }}
-<script type='text/javascript' src="{{ .Site.BaseURL }}js/jquery.min.js" id='jquery-core-js'></script>
-<script type='text/javascript' src="{{ .Site.BaseURL }}js/jquery-migrate.min.js" id='jquery-migrate-js'></script>
-<script type='text/javascript' src="{{ .Site.BaseURL }}js/functions.min.js" id='travelify_functions-js'></script>
+<script type='text/javascript' src="{{ .Site.BaseURL }}js/jquery.min.js" id='jquery-core-js' async></script>
+<script type='text/javascript' src="{{ .Site.BaseURL }}js/jquery-migrate.min.js" id='jquery-migrate-js' async></script>
+<script type='text/javascript' src="{{ .Site.BaseURL }}js/functions.min.js" id='travelify_functions-js' async></script>
 <!-- <script type='text/javascript' src="{{ .Site.BaseURL }}js/admin-bar.min.js"></script> -->
-<script type='text/javascript' src="{{ .Site.BaseURL }}js/jquery.cycle.all.min.js" id='jquery_cycle-js'></script>
+<script type='text/javascript' src="{{ .Site.BaseURL }}js/jquery.cycle.all.min.js" id='jquery_cycle-js' async></script>
 <script type='text/javascript'>
  /* <![CDATA[ */
  var travelify_slider_value = {"transition_effect":"fade","transition_delay":"4000","transition_duration":"1000"};
  /* ]]> */
 </script>
-<script type='text/javascript' src="{{ .Site.BaseURL }}js/slider-settings.min.js" id='travelify_slider-js'></script>
-<script type='text/javascript' src="{{ .Site.BaseURL }}js/wp-embed.min.js" id='wp-embed-js'></script>
+<script type='text/javascript' src="{{ .Site.BaseURL }}js/slider-settings.min.js" id='travelify_slider-js' async></script>
+<script type='text/javascript' src="{{ .Site.BaseURL }}js/wp-embed.min.js" id='wp-embed-js' async></script>
 <link rel='stylesheet' id='font-awesome-css'  href="{{ .Site.BaseURL }}css/fontawesome.min.css" type='text/css' media="print" onload="this.media='all'; this.onload=null;" />
 <link rel='stylesheet' id='font-awesome-brands-css'  href="{{ .Site.BaseURL }}css/brands.min.css" type='text/css' media="print" onload="this.media='all'; this.onload=null;" />
 <link rel='stylesheet' id='font-awesome-solid-css'  href="{{ .Site.BaseURL }}css/solid.min.css" type='text/css' media="print" onload="this.media='all'; this.onload=null;" />
@@ -44,13 +44,13 @@
  }());
 </script>
 <!--<![endif]-->
-<link rel="stylesheet" href="{{ "fancybox/jquery.fancybox.css" | absURL }}">
+<link rel="stylesheet" href="{{ "fancybox/jquery.fancybox.css" | absURL }}" media="print" onload="this.media='all'; this.onload=null;">
 
 {{ range .Site.Params.custom_js }}
-<script src="{{ . | absURL }}"></script>
+<script src="{{ . | absURL }}" async></script>
 {{ end }}
-<script src="{{ "fancybox/jquery.fancybox.pack.js" | absURL }}"></script>
-<script src="{{ "js/script.js" | absURL }}"></script>
+<script src="{{ "fancybox/jquery.fancybox.pack.js" | absURL }}" async></script>
+<script src="{{ "js/script.js" | absURL }}" async></script>
 
 <!-- <link rel='stylesheet' id='admin-bar-css'  href="/css/admin-bar.min.css" type='text/css' media='all' /> -->
 <!-- <link rel='stylesheet' id='travelify_style-css'  href="{{ .Site.BaseURL }}css/jetpack.css" type='text/css' media='all' /> -->
