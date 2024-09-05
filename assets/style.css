@@ -1978,9 +1978,9 @@ article {
 		height: 36px;
 		padding: 13px 0 0;
 	}
-	#main-nav ul {
+	/*#main-nav ul {
 		display: none;
-	}
+	}*/
 	#main-nav select {
 		display: block;
 		width: 100%;
