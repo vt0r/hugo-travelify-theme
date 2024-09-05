@@ -1974,21 +1974,6 @@ article {
 	#site-title a img {
 		max-width: 280px;
 	}
-	#main-nav {
-		height: 36px;
-		padding: 13px 0 0;
-	}
-	/*#main-nav ul {
-		display: none;
-	}*/
-	#main-nav select {
-		display: block;
-		width: 100%;
-		border: none;
-		font: 14px 'Ubuntu', sans-serif;
-		color: #555;
-		height: 24px;
-	}
 	.page-title-wrap {
 		padding: 10px 0;
 	}
