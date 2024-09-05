@@ -456,7 +456,7 @@ img#wpstats {
 	text-align: center;
 	margin: 0;
 	line-height: 20px;
-	display: inline-block;
+	/*display: inline-block;*/
 	text-decoration: none;
 	padding: 4px 12px;
 	text-transform: lowercase;
@@ -605,7 +605,6 @@ a.more-link:focus {
 	line-height: 1;
 	text-decoration: inherit;
 	text-transform: none;
-	speak: none;
 }
 .social-icons ul li a:hover,
 .social-icons ul li a:focus {
@@ -1070,9 +1069,9 @@ a.more-link:focus {
 	padding-right: 3px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	*overflow: auto;
-	*zoom: 1;
-	*display: inline;
+	overflow: auto;
+	zoom: 1;
+	display: inline;
 }
 .entry-meta .author:before{
 	content: '\f304';
@@ -1354,9 +1353,9 @@ a.comment-reply-link:before {
 	margin-right: 3px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	*overflow: auto;
-	*zoom: 1;
-	*display: inline;
+	overflow: auto;
+	zoom: 1;
+	display: inline;
 }
 a.comment-reply-link {
 	font-size: 13px;
@@ -1437,13 +1436,14 @@ label ~ span.required {
 #disqus_thread {
     padding: 5px 15px;
 }
+
 /* Image borders */
-img[class*="align"],img[class*="wp-image-"] {
+/*img[class*="align"],img[class*="wp-image-"] {*/
 	/* Add fancy borders to all WordPress-added images but not things like badges and icons and the like */
-}
-a:focus img[class*="align"],a:hover img[class*="align"],a:active img[class*="align"],a:focus img[class*="wp-image-"],a:hover img[class*="wp-image-"],a:active img[class*="wp-image-"] {
+/*} */
+/*a:focus img[class*="align"],a:hover img[class*="align"],a:active img[class*="align"],a:focus img[class*="wp-image-"],a:hover img[class*="wp-image-"],a:active img[class*="wp-image-"] { */
 	/* Add some useful style to those fancy borders for linked images ... */
-}
+/*} */
 .img-border {
 	background-color: #fff;
 	padding: 5px;
