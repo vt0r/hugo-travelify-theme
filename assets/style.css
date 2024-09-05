@@ -1739,7 +1739,7 @@ ul.default-wp-page li a:active {
 	box-sizing: border-box;
 }
 #footerarea .widget-wrap {
-	border-top: 1px solid #eaeaea;
+	border-top: 1px solid rgb(54, 58, 61);
 	padding: 0 2.5%;
 }
 #footerarea .widget-area {
@@ -1780,7 +1780,7 @@ ul.default-wp-page li a:active {
 /* Site Generator */
 #site-generator {
 	padding: 20px 0px;
-	border-top: 2px dashed #eaeaea;
+	border-top: 2px dashed rgb(54, 58, 61);
 	color: #999;
 }
 #site-generator .copyright {
