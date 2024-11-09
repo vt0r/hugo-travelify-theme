@@ -14,17 +14,31 @@
         <a href="https://twitter.com/{{ .Site.Params.social.twitter }}" title="{{ .Site.Data.l10n.social.twitter }}" target="_blank"></a>
     </li>
     {{ end }}
-    {{ if .Site.Params.social.mastodon_user }}
-    <li class="mastodon">
-		<a href="https://{{ .Site.Params.social.mastodon_server }}/@{{ .Site.Params.social.mastodon_user }}" title="{{ .Site.Data.l10n.social.mastodon }}" target="_blank">
-            <i class="fa-brands fa-mastodon"></i>
-        </a>
-    </li>
-    {{ end }}
     {{ if .Site.Params.social.bluesky }}
     <li class="bluesky">
 		<a href="https://bsky.app/profile/{{ .Site.Params.social.bluesky }}" title="{{ .Site.Data.l10n.social.bluesky }}" target="_blank">
             <i class="fa-brands fa-bluesky"></i>
+        </a>
+    </li>
+    {{ end }}
+    {{ if .Site.Params.social.tiktok }}
+    <li class="tiktok">
+		<a href="https://www.tiktok.com/{{ .Site.Params.social.tiktok }}" title="{{ .Site.Data.l10n.social.tiktok }}" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+    </li>
+    {{ end }}
+    {{ if .Site.Params.social.github }}
+    <li class="github">
+      <a href="https://www.github.com/{{ .Site.Params.social.github }}" title="{{ .Site.Data.l10n.social.github }}" target="_blank">
+		<i class="fa-brands fa-github"></i>
+	  </a>
+    </li>
+    {{ end }}
+    {{ if .Site.Params.social.keyoxide }}
+    <li class="keyoxide">
+		<a href="https://keyoxide.org/{{ .Site.Params.social.keyoxide }}" title="{{ .Site.Data.l10n.social.keyoxide }}" target="_blank">
+            <i class="fa-solid fa-key"></i>
         </a>
     </li>
     {{ end }}
@@ -50,6 +64,13 @@
     {{ if .Site.Params.social.pinterest }}
     <li class="pinterest">
       <a href="https://www.pinterest.com/{{ .Site.Params.social.pinterest }}" title="{{ .Site.Data.l10n.social.pinterest }}" target="_blank"></a>
+    </li>
+    {{ end }}
+    {{ if .Site.Params.social.mastodon_user }}
+    <li class="mastodon">
+		<a href="https://{{ .Site.Params.social.mastodon_server }}/@{{ .Site.Params.social.mastodon_user }}" title="{{ .Site.Data.l10n.social.mastodon }}" target="_blank">
+            <i class="fa-brands fa-mastodon"></i>
+        </a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.linkedin }}
@@ -82,20 +103,6 @@
     {{ if .Site.Params.social.youtube }}
     <li class="youtube">
       <a href="https://www.youtube.com/{{ .Site.Params.social.youtube }}" title="{{ .Site.Data.l10n.social.youtube }}" target="_blank"></a>
-    </li>
-    {{ end }}
-    {{ if .Site.Params.social.keyoxide }}
-    <li class="keyoxide">
-		<a href="https://keyoxide.org/{{ .Site.Params.social.keyoxide }}" title="{{ .Site.Data.l10n.social.keyoxide }}" target="_blank">
-            <i class="fa-solid fa-key"></i>
-        </a>
-    </li>
-    {{ end }}
-    {{ if .Site.Params.social.github }}
-    <li class="github">
-      <a href="https://www.github.com/{{ .Site.Params.social.github }}" title="{{ .Site.Data.l10n.social.github }}" target="_blank">
-		<i class="fa-brands fa-github"></i>
-	  </a>
     </li>
     {{ end }}
   </ul>
