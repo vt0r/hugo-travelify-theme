@@ -6,103 +6,103 @@
   <ul>
     {{ if .Site.Params.social.facebook }}
     <li class="facebook">
-      <a href="https://www.facebook.com/{{ .Site.Params.social.facebook }}" title="{{ .Site.Data.l10n.social.facebook }}" target="_blank"></a>
+      <a href="https://www.facebook.com/{{ .Site.Params.social.facebook }}" title="{{ .Site.Data.l10n.social.facebook }}" target="_blank" rel="noopener"></a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.twitter }}
     <li class="twitter">
-        <a href="https://twitter.com/{{ .Site.Params.social.twitter }}" title="{{ .Site.Data.l10n.social.twitter }}" target="_blank"></a>
+        <a href="https://twitter.com/{{ .Site.Params.social.twitter }}" title="{{ .Site.Data.l10n.social.twitter }}" target="_blank" rel="noopener"></a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.bluesky }}
     <li class="bluesky">
-		<a href="https://bsky.app/profile/{{ .Site.Params.social.bluesky }}" title="{{ .Site.Data.l10n.social.bluesky }}" target="_blank">
+		<a href="https://bsky.app/profile/{{ .Site.Params.social.bluesky }}" title="{{ .Site.Data.l10n.social.bluesky }}" target="_blank" rel="noopener">
             <i class="fa-brands fa-bluesky"></i>
         </a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.tiktok }}
     <li class="tiktok">
-		<a href="https://www.tiktok.com/{{ .Site.Params.social.tiktok }}" title="{{ .Site.Data.l10n.social.tiktok }}" target="_blank">
+		<a href="https://www.tiktok.com/{{ .Site.Params.social.tiktok }}" title="{{ .Site.Data.l10n.social.tiktok }}" target="_blank" rel="noopener">
             <i class="fa-brands fa-tiktok"></i>
         </a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.github }}
     <li class="github">
-      <a href="https://www.github.com/{{ .Site.Params.social.github }}" title="{{ .Site.Data.l10n.social.github }}" target="_blank">
+      <a href="https://www.github.com/{{ .Site.Params.social.github }}" title="{{ .Site.Data.l10n.social.github }}" target="_blank" rel="noopener">
 		<i class="fa-brands fa-github"></i>
 	  </a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.keyoxide }}
     <li class="keyoxide">
-		<a href="https://keyoxide.org/{{ .Site.Params.social.keyoxide }}" title="{{ .Site.Data.l10n.social.keyoxide }}" target="_blank">
+		<a href="https://keyoxide.org/{{ .Site.Params.social.keyoxide }}" title="{{ .Site.Data.l10n.social.keyoxide }}" target="_blank" rel="noopener">
             <i class="fa-solid fa-key"></i>
         </a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.email }}
     <li class="email">
-        <a href="mailto:{{ .Site.Params.social.email }}" title="{{ .Site.Data.l10n.social.email }}" target="_blank">
+        <a href="mailto:{{ .Site.Params.social.email }}" title="{{ .Site.Data.l10n.social.email }}" target="_blank" rel="noopener">
 			<i class="fa-solid fa-envelope"></i>
 		</a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.rss }}
     <li class="rss">
-      <a href="{{ .Site.Params.social.feed | absURL }}" title="{{ .Site.Data.l10n.social.RSS }}" target="_blank">
+      <a href="{{ .Site.Params.social.feed | absURL }}" title="{{ .Site.Data.l10n.social.RSS }}" target="_blank" rel="noopener">
 		<i class="fa-solid fa-rss"></i>
 	  </a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.googleplus }}
     <li class="google-plus">
-      <a href="https://www.google.com/+{{ .Site.Params.social.googleplus }}" title="{{ .Site.Data.l10n.social.googleplus }}" target="_blank"></a>
+      <a href="https://www.google.com/+{{ .Site.Params.social.googleplus }}" title="{{ .Site.Data.l10n.social.googleplus }}" target="_blank" rel="noopener"></a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.pinterest }}
     <li class="pinterest">
-      <a href="https://www.pinterest.com/{{ .Site.Params.social.pinterest }}" title="{{ .Site.Data.l10n.social.pinterest }}" target="_blank"></a>
+      <a href="https://www.pinterest.com/{{ .Site.Params.social.pinterest }}" title="{{ .Site.Data.l10n.social.pinterest }}" target="_blank" rel="noopener"></a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.mastodon_user }}
     <li class="mastodon">
-		<a href="https://{{ .Site.Params.social.mastodon_server }}/@{{ .Site.Params.social.mastodon_user }}" title="{{ .Site.Data.l10n.social.mastodon }}" target="_blank">
+		<a href="https://{{ .Site.Params.social.mastodon_server }}/@{{ .Site.Params.social.mastodon_user }}" title="{{ .Site.Data.l10n.social.mastodon }}" target="_blank" rel="noopener">
             <i class="fa-brands fa-mastodon"></i>
         </a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.linkedin }}
     <li class="linkedin">
-      <a href="https://www.linkedin.com/in/{{ .Site.Params.social.linkedin }}" title="{{ .Site.Data.l10n.social.linkedin }}" target="_blank">
+      <a href="https://www.linkedin.com/in/{{ .Site.Params.social.linkedin }}" title="{{ .Site.Data.l10n.social.linkedin }}" target="_blank" rel="noopener">
 		<i class="fa-brands fa-linkedin"></i>
 	  </a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.tumblr }}
     <li class="tumblr">
-      <a href="https://{{ .Site.Params.social.tumblr }}.tumblr.com/" title="{{ .Site.Data.l10n.social.tumblr }}" target="_blank"></a>
+      <a href="https://{{ .Site.Params.social.tumblr }}.tumblr.com/" title="{{ .Site.Data.l10n.social.tumblr }}" target="_blank" rel="noopener"></a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.vimeo }}
     <li class="vimeo">
-      <a href="https://www.vimeo.com/{{ .Site.Params.social.vimeo }}" title="{{ .Site.Data.l10n.social.vimeo }}" target="_blank"></a>
+      <a href="https://www.vimeo.com/{{ .Site.Params.social.vimeo }}" title="{{ .Site.Data.l10n.social.vimeo }}" target="_blank" rel="noopener"></a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.instagram }}
     <li class="instagram">
-      <a href="https://www.instagram.com/{{ .Site.Params.social.instagram }}" title="{{ .Site.Data.l10n.social.instagram }}" target="_blank"></a>
+      <a href="https://www.instagram.com/{{ .Site.Params.social.instagram }}" title="{{ .Site.Data.l10n.social.instagram }}" target="_blank" rel="noopener"></a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.flickr }}
     <li class="flickr">
-      <a href="https://flickr.com/photos/{{ .Site.Params.social.flickr }}" title="{{ .Site.Data.l10n.social.flickr }}" target="_blank"></a>
+      <a href="https://flickr.com/photos/{{ .Site.Params.social.flickr }}" title="{{ .Site.Data.l10n.social.flickr }}" target="_blank" rel="noopener"></a>
     </li>
     {{ end }}
     {{ if .Site.Params.social.youtube }}
     <li class="youtube">
-      <a href="https://www.youtube.com/{{ .Site.Params.social.youtube }}" title="{{ .Site.Data.l10n.social.youtube }}" target="_blank"></a>
+      <a href="https://www.youtube.com/{{ .Site.Params.social.youtube }}" title="{{ .Site.Data.l10n.social.youtube }}" target="_blank" rel="noopener"></a>
     </li>
     {{ end }}
   </ul>
