@@ -1548,9 +1548,9 @@ ul.default-wp-page li.next {
 }
 ul.default-wp-page li a {
   display: inline-block;
-  color: #fff;
+  color: #fff !important;
   background-color: #439f55;
-  border: 1px solid #eaeaea;
+  border: 1px solid #57ad68;
   border-radius: 2px;
   padding: 8px 8px 8px;
 }
