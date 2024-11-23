@@ -8,10 +8,8 @@
         {{ partial "nav" . }}
         <div class="page-title-wrap">
           <div class="container clearfix">
-            {{ if eq .Title "The Fishing Dev" }}
-            <img src="{{ $.Site.BaseURL }}images/authors/the-fishing-dev.jpg" alt="Picture of The Fishing Dev (Salvatore LaMendola)" width="128" height="128"></img><br />
-            {{ end }}
-            <h3 class="page-title">{{ if not .IsHome }}{{ .Title }} {{ end }}</h3><!-- .page-title -->
+            <h3 class="page-title">{{ if not .IsHome }}{{ .Title }} {{ end }}</h3><!-- .page-title -->{{ if eq .Title "The Fishing Dev" }}<br>
+            <img src="{{ $.Site.BaseURL }}images/authors/the-fishing-dev.jpg" alt="Picture of The Fishing Dev (Salvatore LaMendola)" width="128" height="128"></img>{{ end }}
           </div>
         </div>
       </header>
