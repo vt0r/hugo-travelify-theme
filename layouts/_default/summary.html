@@ -3,7 +3,7 @@
     {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
     <figure class="post-featured-image">
       <a href="{{ .RelPermalink }}" itemprop="url">
-	<img src="{{ .Params.banner | absURL }}" class="attachment-featured size-featured wp-post-image"/>
+	<img src="{{ .Params.banner | absURL }}" class="attachment-featured size-featured wp-post-image" alt="{{ .Title }}"/>
       </a>
     </figure> 
     {{ end }}
