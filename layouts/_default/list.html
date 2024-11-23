@@ -8,7 +8,7 @@
         {{ partial "nav" . }}
         <div class="page-title-wrap">
           <div class="container clearfix">
-            {{ if .Title | urlize | lower == "the-fishing-dev" }}
+            {{ if (.Title | urlize | lower) == "the-fishing-dev" }}
             <img src="{{ $.Site.BaseURL }}images/authors/the-fishing-dev.jpg" alt="Picture of The Fishing Dev (Salvatore LaMendola)"></img>
             {{ end }}
             <h3 class="page-title">{{ if not .IsHome }}{{ .Title }} {{ end }}</h3><!-- .page-title -->
