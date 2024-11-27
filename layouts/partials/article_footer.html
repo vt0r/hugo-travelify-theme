@@ -47,7 +47,7 @@
       </a>
     </span>
     {{ end }}
-    {{ if and (isset .Params "skeetID") (not (eq .Params.skeetID "")) (not .Params.disable_comments) }}
+    {{ if and (not (eq .Params.skeet_id "")) (not .Params.disable_comments) }}
     <span class="comments">
       <style>
         @media (prefers-color-scheme: dark) {
@@ -62,7 +62,7 @@
         }
       </style>
       <!-- Use the Bluesky comments element -->
-      <bluesky-comments url="https://bsky.app/profile/{{ .Params.social.bluesky }}/post/{{ .Params.skeetID }}">
+      <bluesky-comments url="https://bsky.app/profile/{{ .Site.Params.social.bluesky }}/post/{{ .Params.skeet_id }}">
       </bluesky-comments>
       <!-- Include the script tag anywhere -->
       <script type="module">
