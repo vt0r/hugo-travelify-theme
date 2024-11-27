@@ -47,7 +47,7 @@
       </a>
     </span>
     {{ end }}
-    {{ if and (not (eq .Params.skeet_id "")) (not .Params.disable_comments) }}
+    {{ if isset .Params "skeet_id" }}
     <span class="comments">
       <style>
         @media (prefers-color-scheme: dark) {
