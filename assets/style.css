@@ -1955,6 +1955,7 @@ article {
     line-height: 32px;
   }
   #content h1,#content h2,#content h3,#content h4,#content h5,#content h6 {
+    color: #999;
     padding-bottom: 10px;
   }
   #branding {
