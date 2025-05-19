@@ -98,7 +98,7 @@ hr {
 
 ::selection {
   background: #57ad68;
-  color: #fff;
+  color: #999;
 }
 
 /**
@@ -1151,7 +1151,7 @@ td,tbody th {
   padding: 4px 2%;
 }
 tr:hover td, tr:hover th {
-  background: #fff;
+  background: #999;
 }
 thead th,tfoot th,thead tr:hover th,tfoot tr:hover th {
   background: #d8d8d8;
@@ -1253,7 +1253,7 @@ thead th,tfoot th,thead tr:hover th,tfoot tr:hover th {
 .image-attachment div.attachment a:hover img,
 .image-attachment div.attachment a:active img {
   border-color: #ddd;
-  background: #fff;
+  background: #999;
 }
 .image-attachment .entry-caption p {
   font-size: 10px;
@@ -1333,7 +1333,7 @@ thead th,tfoot th,thead tr:hover th,tfoot tr:hover th {
   font-size: 12px;
   font-size: 0.8rem;
   font-weight: normal;
-  color: #fff;
+  color: #999;
   background-repeat: repeat-x;
   background: #0088d0;
   border-radius: 3px;
@@ -1447,7 +1447,7 @@ label ~ span.required {
   /* Add some useful style to those fancy borders for linked images ... */
 /*} */
 .img-border {
-  background-color: #fff;
+  background-color: #999;
   padding: 5px;
   border: 1px solid #ccc;
 }
@@ -1486,7 +1486,7 @@ label ~ span.required {
 #wp_page_numbers ul li a:focus,
 #wp_page_numbers ul li.active_page a {
   border: 1px solid #57ad68;
-  color: #fff;
+  color: #999;
   background: #439f55;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
@@ -1520,7 +1520,7 @@ label ~ span.required {
 .wp-pagenavi .current,.wp-pagenavi a:hover,
 .wp-pagenavi .current,.wp-pagenavi a:focus {
   border: 1px solid #439f55 !important;
-  color: #fff;
+  color: #999;
   background: #57ad68;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
@@ -1549,7 +1549,7 @@ ul.default-wp-page li.next {
 }
 ul.default-wp-page li a {
   display: inline-block;
-  color: #fff !important;
+  color: #999 !important;
   background-color: #439f55;
   border: 1px solid #57ad68;
   border-radius: 2px;
@@ -1558,11 +1558,11 @@ ul.default-wp-page li a {
 ul.default-wp-page li a:hover,
 ul.default-wp-page li a:focus {
   border: 1px solid #57ad68;
-  color: #fff !important;
+  color: #999 !important;
   border: 1px solid #439f55;
   cursor: pointer;
   background: #439f55;
-  color: #fff;
+  color: #999;
   position: relative;
   border-radius: 2px;
   text-shadow: 0 1px 1px rgba(0,0,0,0.2);
@@ -1585,7 +1585,7 @@ ul.default-wp-page li a:active {
 }
 .pagination span {
   display: inline-block;
-  color: #fff;
+  color: #999;
   background-color: #57ad68;
   border: 1px solid #57ad68;
   border-radius: 2px;
@@ -1601,7 +1601,7 @@ ul.default-wp-page li a:active {
 .pagination a:focus span {
   background-color: #57ad68;
   border: 1px solid #57ad68;
-  color: #fff;
+  color: #999;
 }
 /* =Widgets
 -----------------------------------------------*/
@@ -1862,7 +1862,7 @@ article {
   float: left;
   width: 62.6%;
   padding: 10px 1.5%;
-  background: #fff;
+  background: #999;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
